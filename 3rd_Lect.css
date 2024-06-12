@@ -1,0 +1,148 @@
+#parent{
+    height: 200px;
+    width: 200px;
+    background-color: darkorange;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#child{
+    background-color: darkblue;
+    height: 50%;  /* This will be the 50% of the size of parent height */
+    color: whitesmoke;
+    font-size: 0.5em;  /* The font-size becomes 10px of its parent font-size */
+    margin: 2em;  /* margin will become 2 times of itself font-size : 20px */
+    width: 8em;  /* width will become 8 times of itself font-size : 80px */
+    height: 5rem; /* height will become 5 times the font-size of body(16px) : 80px */
+}
+
+.header{
+    height:50px;
+    width: 100%;
+    text-align: center;
+    position: sticky;
+    top: 0px;
+    background-color: rgb(255, 229, 137);
+    border: 2px solid;
+    z-index: 1;
+}
+
+.div1,.div2,h4,.div4,.div5{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    border: 2px solid;
+}
+
+.div1{
+    position: relative;
+    top: 10px;
+    left: 30px;
+}
+
+.div2{
+    position: absolute;
+    top: 700px;
+    right:70px
+}
+
+h4{
+    background-color: rgb(255, 229, 137);
+    height: 32px;
+    width: 100%;
+    text-align: center;
+    position: sticky;
+    bottom: 0px;
+    padding-top: 18px;
+}
+
+.div4{
+    background-color: coral;
+    position: sticky;
+    bottom: 100px;
+    left: 30%;
+    z-index: -1;
+}
+
+.div5{
+    background-color: deepskyblue;
+    position: sticky;
+    bottom: 200px;
+    left: 80%;
+    z-index: -1;
+}
+
+.box1,.box2,.box3,.box4{
+    height: 200px;
+    width: 150px;
+    display: inline-block;
+    border: 2px solid;
+    border-radius: 20px;
+    margin-left: 100px;
+    position: relative;
+    left: 80px;
+}
+.box1{
+    background-color:darkorange;
+    background-image: url("https://images.unsplash.com/photo-1564349683136-77e08dba1ef7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8YW5pbWFsc3xlbnwwfHwwfHx8MA%3D%3D");
+    background-size: contain;
+}
+
+.box2{
+    background-color:aquamarine;
+    background-image: url("https://images.unsplash.com/photo-1529778873920-4da4926a72c2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YW5pbWFsc3xlbnwwfHwwfHx8MA%3D%3D");
+    background-size: contain;
+}
+
+.box3{
+    background-color:burlywood;
+    background-image: url("https://images.unsplash.com/photo-1589656966895-2f33e7653819?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YW5pbWFsc3xlbnwwfHwwfHx8MA%3D%3D");
+    background-size: contain;
+}
+
+.box4{
+    background-color:darkorchid;
+    background-image: url("https://images.unsplash.com/photo-1496196614460-48988a57fccf?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHdpbGRsaWZlfGVufDB8fDB8fHww");
+    background-size: contain;
+}
+
+h2{
+    height: 50px;
+    background-color: rgb(255, 229, 137);
+    text-align: center;
+    border: 2px solid;
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+}
+
+.webpage{
+    height: 100vh;
+    background-color: rgb(255, 252, 240);
+    background-image: url("https://images.unsplash.com/photo-1564349683136-77e08dba1ef7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8YW5pbWFsc3xlbnwwfHwwfHx8MA%3D%3D");
+    background-size: cover;
+}
+
+.info_box{
+    height: 250px;
+    width: 300px;
+    border: 2px solid;
+    border-radius: 20px;
+    background-color:antiquewhite;
+    position: relative;
+    top: -500px;
+    left: 50px;
+    text-align: center;
+    padding: 0px 20px 0px 40px;
+    z-index: 1;
+}
+
+h1{
+    text-decoration: underline;
+}
+
+.about{
+    text-align: left;
+    text-decoration: none;
+}
